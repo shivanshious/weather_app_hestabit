@@ -129,3 +129,8 @@
 .extra_item{
     font-size: 15px;
 }
+.title{
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(7, 44, 112);
+}

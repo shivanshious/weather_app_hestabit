@@ -49,6 +49,7 @@ const Weather = () => {
             value={city}
             onChange={handleChange}
             onKeyUp={handleKeyPress}
+            placeholder="Enter city name.."
           />
           <button type="submit" className="search_button" onClick={findData}>
             Search
