@@ -1,0 +1,120 @@
+.container{
+    width: 35rem;
+    min-height: 10rem;
+    max-height: fit-content;
+    background-color: rgb(99, 158, 236);
+    position: absolute;
+    top: 3rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid rgb(17, 110, 231);
+    box-shadow: 1px 2px 7px rgb(9, 63, 82);
+    padding: 1rem;
+}
+.get_city{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.input{
+    padding: 8px 6px;
+    font-size: large;
+    width: 75%;
+    border: none;
+    border-radius:5px ;
+    background-color: rgb(186, 209, 238);
+}
+.input:focus{
+    outline: none;
+}
+.search_button{
+    background-color:rgb(186, 209, 238);
+    border: none;
+    padding: 6px;
+    border-radius:5px ;
+    font-size: medium;
+    color: rgb(6, 47, 161) ;
+    cursor: pointer;
+}
+.search_button:hover{
+    color: #fff;
+    background-color: rgb(99, 158, 236);
+    border: 1px solid rgb(186, 209, 238);
+}
+
+.display_name{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.city_name{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: xxx-large;
+}
+.weather_main{
+    margin-top: 0;
+    font-size: larger;
+    font-weight: 500;
+}
+.other_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item_holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+}
+.description{
+    font-size: large;
+    font-weight: 500;
+    margin-top: 0;
+}
+.heading{
+    margin: 0;
+    font-size: xx-large;
+    font-weight: 500;
+    color:#fff
+}
+.feel_like{
+    font-weight: 500;
+    font-size: medium;
+    margin-bottom: 5px;
+}
+.min_max_temp{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: small;
+    padding: 3px;
+}
+.min_temp{
+    padding-right: 4px;
+    border-right: 1px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.max_temp{
+    margin-top: 0;
+    padding-left: 4px;
+    margin-bottom: 0;
+}
+.wind_icon{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+.wind{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: small;
+}
