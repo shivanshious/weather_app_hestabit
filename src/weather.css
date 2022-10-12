@@ -22,7 +22,7 @@
 .input{
     padding: 8px 6px;
     font-size: large;
-    width: 75%;
+    width: 85%;
     border: none;
     border-radius:5px ;
     background-color: rgb(186, 209, 238);
@@ -73,6 +73,9 @@
     align-items: center;
     padding: 0 1rem;
 }
+.icon{
+    margin-bottom: 12px;
+}
 .description{
     font-size: large;
     font-weight: 500;
@@ -117,4 +120,12 @@
     margin-top: 0;
     margin-bottom: 5px;
     font-size: small;
+}
+.extras{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.extra_item{
+    font-size: 15px;
 }
